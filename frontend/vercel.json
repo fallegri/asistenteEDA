@@ -5,7 +5,7 @@
   "framework": "nextjs",
   "functions": {
     "api/*.py": {
-      "runtime": "python3.12",
+      "runtime": "python@3.12",
       "maxDuration": 30,
       "memory": 1024
     }
