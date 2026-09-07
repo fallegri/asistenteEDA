@@ -1,0 +1,16 @@
+# Ignorar backend FastAPI para deploy Vercel (solo frontend)
+api/
+pyproject.toml
+backend/
+tests/
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.db
+*.sqlite
+.env
+.env.local
